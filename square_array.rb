@@ -1,11 +1,10 @@
 def square_array(array)
   # your code here
-  arr = array
-  puts arr
-  array.each do |arr|
-    arr ** 2
-  end
+  
+  new_array = []
+  array.each{|a| new_array.push(a*a)}
+  return new_array
 end
 
-array = [1, 2, 3]
-square_array(array)
+arr = [1, 2, 3, 4, 5]
+square_array(arr)
