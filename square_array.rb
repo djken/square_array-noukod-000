@@ -5,7 +5,7 @@ def square_array(array)
   # return arr
   
   array.each do |a| 
-    arr.push(a*a)}
+    arr.push(a*a)
   return arr
   end
 end
